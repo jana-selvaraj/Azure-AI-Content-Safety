@@ -8,9 +8,9 @@ def analyze_text():
     from azure.core.exceptions import HttpResponseError
     from azure.ai.contentsafety.models import AnalyzeTextOptions
 
-    key = "2HpBaWKxC241iAHJpHlfzr2FgGnFJyKYDGqAQVMe3uJYrTdDhScrJQQJ99AKACYeBjFXJ3w3AAAHACOG7jzt"
-    endpoint = "https://insurancetestdemo.cognitiveservices.azure.com/"
-
+    key = ADD_YOUR_KEY
+    endpoint = ADD_YOUR_ENDPOINT
+    
     # Create a Content Safety client
     client = ContentSafetyClient(endpoint, AzureKeyCredential(key))
 
